@@ -6,7 +6,7 @@ export function ProjectsLink() {
     <>
       
         <Link to="projects">
-        <Button marginTop="30px" bg="purple" color="white" >My Projects</Button>
+        <Button size="lg" marginTop="30px" bg="purple" color="white" >My Projects</Button>
         </Link>
       
     </>
