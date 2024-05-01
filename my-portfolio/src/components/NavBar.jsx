@@ -13,14 +13,14 @@ export function NavBar() {
     <Flex py="10px" as="nav" bg="black">
       <Spacer></Spacer>
       <ReactRouterLink to="/">
-        <IconButton cursor="pointer" mx="5px" bg="black" color="white" as={FaHome}/>
+        <IconButton cursor="pointer" mx="5px" bg="black" color="#DBD8E3" as={FaHome}/>
       </ReactRouterLink>
       <ChakraLink href="https://github.com/BTMurph0" isExternal>
         <IconButton
           cursor="pointer"
           mx="5px"
           bg="black"
-          color="pink"
+          color="hotpink"
           as={FaGithub}
         />
       </ChakraLink>
