@@ -1,4 +1,4 @@
-import { Container, Heading, Text } from "@chakra-ui/react";
+import { Box, Container, Heading, Text } from "@chakra-ui/react";
 import ProjectsLink from "../components/ProjectsLink";
 
 export function Dashboard() {
@@ -10,6 +10,7 @@ export function Dashboard() {
         <Text fontSize="2rem" marginTop="20px" color="#DBD8E3">JavaScript || React || Node.js || Express.js || PostgreSQL</Text>
         <Text fontSize="2rem" marginTop="20px" color="#DBD8E3">Welcome to my portfolio site! Click below to see my projects.</Text>
         <ProjectsLink />
+        <Box my="50px"></Box>
       </Container>
       
     </>
