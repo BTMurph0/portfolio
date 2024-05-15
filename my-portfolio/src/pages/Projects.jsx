@@ -24,7 +24,7 @@ export function Projects() {
           greeted with a list of user profiles they can choose to login as. By
           default they are the guest profile. They cannot comment or vote on
           articles as a guest but selecting a user profile uses useContext to
-          unlock the comment and voting options. Click the project title above to see the hosted site.
+          unlock the comment and voting options. The site is hosted on a free service which is why it can be slow to load the first time around. Click the project title above to see the hosted site.
         </Text>
       </Box>
     </Container>
